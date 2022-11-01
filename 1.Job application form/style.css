@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: open sans,sans-serif;
+	background-color:#405263;
+}
+.container{
+	max-width: 900px;
+	/* up-down || left-right */
+	margin: 0 auto;
+}
+.header{
+	max-width: 600px;
+	padding: 20px;
+	background-color: white;
+    margin: 0 auto;
+	margin-top: 50px;
+	/* x || y || z */
+	box-shadow: 4px 3px 5px #0000;
+	border-radius: 10px;
+}
+.content{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+	gap: 20px;
+}
+.first{
+	display: flex;
+	flex-direction: column;
+}
+label{
+	font-size: 15 px;
+	margin-bottom: 5px;
+}
+input , select , textarea{
+	padding:6px 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 15px;
+}
+input:focus{
+	outline-color: #748DA6;
+}
+.btn-container{
+	display: flex;
+	justify-content: flex-end;
+margin-top: 20px;
+}
+button{
+	padding: 5px 10px;
+	font-size: 15px;
+	background-color: #405263;
+	border: transparent solid 2px;
+	color: white;
+	border-radius: 10px;
+	transition: 0.3s ease-in;
+}
+button:hover{
+	 background-color: #ccc;
+	 border: 2px solid black;
+	 color: black;
+	 transition: 0.3s ease-out;
+	 cursor: pointer;
+}
+.Address{
+	 grid-column: 1/span 2;
+}
+.Address textarea{
+	width: 100%;
+}
+@media(max-width: 460px){
+	.Address{
+		grid-column: 1/span 1;
+   }	
+};
