@@ -1,0 +1,17 @@
+img{
+	width: 40%;
+	margin: calc(10%/4);
+	
+}
+
+nav{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-transform: uppercase;
+	width: 40%;
+	font-size: 1.5em;
+	margin: calc(10%/4);
+	border-bottom: 2px solid rgb(151, 182, 183);
+	padding: 1em 0px;
+	
+
+}
