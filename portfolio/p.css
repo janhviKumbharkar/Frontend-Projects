@@ -1,0 +1,35 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Fuzzy Bubbles', cursive;
+	font-family: 'Stylish', sans-serif;
+}
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 40px;
+	background-color: black;
+	color: white;
+	
+}
+img{
+	display: inline-block;
+	margin-left: 20px;
+	border-radius: 50%;
+
+}
+li{
+	display: inline-block;
+	align-items: center;
+	padding: 9px 20px 0px 20px;
+}
+button{
+	padding: 0px 4px 0px 4px;
+	margin-right: 20px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background-color: antiquewhite;
+	color: black;
+}
