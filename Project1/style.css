@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://i.pinimg.com/originals/16/51/a7/1651a7e049cf443edc1cffe560600e0f.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.emoji {
+  font-size: 15rem;
+  cursor: pointer;
+  user-select: none;
+}
+.close {
+  display: none;
+}
+.open {
+  display: none;
+}
+.active {
+  display: block;
+}
